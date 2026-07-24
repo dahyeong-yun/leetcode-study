@@ -1,7 +1,7 @@
 /**
   * input str의 길이가 n이고, 각 str 문자열의 길이를 m라 할 때
   * 
-  * TC : O(n * m log n)
+  * TC : O(n * m log m)
   *   - n 번 순회할 때마다 각 단어 정렬에 m log m 만큼 소요되므로 O(n * m log m)
   * SC : O(n * m)
   *   - n * m 만큼의 char 배열 공간을 key 값 생성으로 사용
